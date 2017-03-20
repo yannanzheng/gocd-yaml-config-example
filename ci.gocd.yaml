@@ -5,7 +5,7 @@ environments:
     pipelines:
       - yaml-example
 pipelines:
-  voiceheart_server:
+  voiceheart_backend:
     group: voiceheart
     materials:
       mygit:  # this is the name of material
