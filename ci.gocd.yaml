@@ -14,4 +14,5 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: echo "test command"
+                   command: echo 
+                   arguments: "test command"
