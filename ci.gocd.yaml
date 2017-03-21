@@ -13,4 +13,5 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: ./heartvoice_server.sh build
+                   command: ./heartvoice_server.sh
+                   arg: build
